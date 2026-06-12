@@ -1,27 +1,13 @@
 {
-    'name': 'EDI Tools',
+    'name': 'Spring Systems EDI & Order Integration',
     'version': '18.0.1.0.0',
-    'category': 'EDI',
-    'summary': 'Simple EDI Management Tools',
-    'description': 'Manage EDI trading partners and settings.',
-    'author': 'Your Name',
-    'website': 'https://yourwebsite.com',
+    'category': 'Sales',
+    'summary': 'Connect Odoo with major retailers (EDI), Shopify, and more for automated order, inventory, and fulfillment sync.',
+    'author': 'Spring Systems',
+    'website': 'https://springsystems.com/supplier-solutions/spring-integration',
+    'depends': ['sale', 'stock'],
+    'images': ['static/description/icon.png'],
     'license': 'LGPL-3',
-
-    'depends': [
-        'base'
-    ],
-
-    'data': [
-        'security/ir.model.access.csv',
-        'views/edi_partner_views.xml',
-        'views/menus.xml',
-    ],
-
-    'images': [
-        'static/description/icon.png'
-    ],
-
     'installable': True,
     'application': True,
 }
