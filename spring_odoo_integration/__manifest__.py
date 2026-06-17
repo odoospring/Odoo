@@ -10,6 +10,5 @@
     'depends': ['sale_management', 'stock', 'account'],
     'images': ['static/description/icon.jpg', 'static/description/odoo.gif'],
     'license': 'LGPL-3',
-    'application': True,
    
 }
