@@ -7,8 +7,12 @@
     'website': 'https://springsystems.com/supplier-solutions/spring-integration',
     'support': 'support@springsystems.com',
     'live_test_url' : 'https://springsystems.com/get-started/lets-get-you-set-up',
+    'price': 59,
+    'currency': 'USD',
     'depends': ['sale_management', 'stock', 'account'],
     'images': ['static/description/icon.jpg', 'static/description/odoo.gif'],
     'license': 'LGPL-3',
+    'installable': True,
+    'application': True,
    
 }
