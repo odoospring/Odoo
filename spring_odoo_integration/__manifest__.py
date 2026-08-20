@@ -1,6 +1,6 @@
 {
     'name': 'EDI, 3PL & Order Integration Connector',
-    'version': '19.0.1.0.0',
+    'version': '18.0.1.0.0',
     'category': 'Sales',
     'summary': 'Connect Odoo with major retailers (EDI), Shopify, and more for automated order, inventory, and fulfillment sync.',
     'author': 'Spring Systems',
